@@ -4,5 +4,9 @@ use aws_sdk_dynamodb::model::AttributeValue;
 use lambda_runtime::{handler_fn, Context, Error as LambdaError};
 use serde::Deserialize;
 use serde_json::{json, Value};
+use uuid::Uuid;
 
-fn main (){}
+#[tokio::main]
+async fn main () -> Results<(), LambdaError> {
+    
+}
